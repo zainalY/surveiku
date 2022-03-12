@@ -1,0 +1,271 @@
+/* Goofle fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&display=swap");
+
+:root {
+	--primary-color: #0066dd;
+	--primary-color-dark: #0962c9;
+	--primary-color-light: #ccdff7;
+	--primary-color-darklight: #d1e6ff;
+	--black-1-color: #0d2862;
+	--black-2-color: #374151;
+	--gray-1-color: #737e92;
+	--gray-2-color: #c2c0c0;
+}
+
+.bg-primary {
+	background-color: var(--primary-color) !important;
+}
+
+.card-result {
+	border-radius: 10px;
+	border: 1px solid #eee;
+}
+
+.text-black-1 {
+	color: var(--black-1-color);
+}
+body {
+	font-family: "Poppins", sans-serif;
+	/* background-image: url("https://images.unsplash.com/photo-1517816743773-6e0fd518b4a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"); */
+	background-image: url("/assets/img/background/white.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+a {
+	text-decoration: none;
+}
+
+.btn {
+	margin-right: 0.5rem;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+button.btn {
+	padding: 14px !important;
+}
+a.btn {
+	padding: 15px 30px !important;
+}
+
+.btn-primary {
+	background-color: var(--primary-color) !important;
+}
+
+.btn-primary:focus {
+	background-color: var(--primary-color-dark) !important;
+}
+
+.btn-primary-light {
+	background-color: var(--primary-color-light) !important;
+	color: var(--primary-color);
+}
+
+.btn-primary-light:focus {
+	background-color: var(--primary-color-darklight);
+	color: var(--primary-color);
+}
+
+.btn-primary-light:hover {
+	background-color: var(--primary-color-darklight);
+	color: var(--primary-color);
+}
+
+.card {
+	border-radius: 8px;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	border: none;
+	transition: 0.5s ease;
+}
+
+h6.card-text {
+	line-height: 24px;
+}
+
+p.card-desc {
+	line-height: 20px;
+}
+
+.form-control:focus {
+	box-shadow: none;
+	color: var(--primary-color-dark) !important;
+}
+
+input.form-control {
+	font-size: 14px;
+	padding: 14px;
+	border-radius: 8px;
+}
+
+.form-control::placeholder {
+	font-size: 14px;
+}
+
+/* Form load more */
+.question-content {
+	display: none;
+}
+
+#loadMore {
+	transition: 0.3s;
+}
+.noContent {
+	color: var(--gray-2-color) !important;
+	background-color: transparent !important;
+	pointer-events: none;
+}
+/* Step */
+
+.li-search {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	border: 1px solid #ddd;
+	margin-top: -1px;
+	background-color: #f6f6f6;
+	padding: 8px;
+	font-size: 14px;
+	color: black;
+	display: block;
+	cursor: pointer;
+}
+
+.li-search:hover {
+	background-color: #eee;
+}
+
+.opt-icon {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.card-block {
+	width: 215px;
+	border: 1px solid lightgrey;
+	border-radius: 5px !important;
+	background-color: #fafafa;
+	margin-bottom: 30px;
+}
+.radio {
+	display: inline-block;
+	border-radius: 0;
+	box-sizing: border-box;
+	cursor: pointer;
+	color: #000;
+	font-weight: 500;
+	opacity: 0.6;
+}
+.radio.selected {
+	box-shadow: 0px 8px 16px 0px #eeeeee;
+	opacity: 1;
+}
+.radio:hover {
+	background-color: #d7f5e8;
+	opacity: 1;
+}
+.selected {
+	background-color: #e0f2ea;
+}
+
+input.form-control.bg-none {
+	overflow: hidden;
+	border-radius: 100px;
+}
+
+.form-check {
+	margin-bottom: 1rem;
+	font-size: 14px;
+	font-weight: 400;
+	color: var(--black-2-color);
+}
+/* MAIN CONTENT */
+
+.main-content-1 {
+	margin: 8rem 3rem;
+	text-transform: capitalize;
+}
+
+.main-content-2 {
+	margin: 2rem 3rem;
+	text-transform: capitalize;
+}
+
+.main-content-3 {
+	margin: 1rem 3rem;
+	text-transform: capitalize;
+}
+
+.text-header span.h2 {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.text-header span.h3 {
+	font-size: 36px;
+	font-weight: 400;
+}
+
+.text-desc {
+	font-size: 15px;
+	color: var(--gray-1-color);
+	font-weight: 300;
+}
+
+.text-header span {
+	line-height: 54px;
+	color: var(--black-1-color);
+}
+
+.main-content-img {
+	padding: 5rem 3rem;
+	display: block;
+}
+
+.main-img-text {
+	color: #ffffff;
+}
+
+.main-img-text h1 {
+	font-size: 28px;
+	font-weight: 700;
+	margin-top: 2.5rem;
+	line-height: 136.5%px;
+}
+
+.main-img-text p {
+	font-size: 14px;
+}
+
+/* --------------------------------------------------
+ Custom Scrollbar
+  ----------------------------------------------------*/
+
+/* width */
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+	background: rgb(207, 206, 206);
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+	background: rgb(138, 138, 138);
+}
+
+footer p {
+	font-size: 14px;
+	color: #585858;
+}
